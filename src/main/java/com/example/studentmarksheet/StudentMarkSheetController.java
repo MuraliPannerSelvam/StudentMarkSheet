@@ -16,7 +16,7 @@ public class StudentMarkSheetController {
 	@Autowired
 	StudentMarkSheetService smsSer;
 
-	@PostMapping(value = "/addMarkSheet")
+	@PostMapping(value = "/addMuraliMarkSheet")
 	public String addMarkSheet(@RequestBody MarkSheet ms) {
 		return smsSer.addMarkSheet(ms);
 	}
